@@ -1,0 +1,35 @@
+.wrapper{
+   display: flex;
+   background-color: #07b6b6;
+   padding: 20px 0;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.card{
+   width: 250px;
+   margin: 10px;
+   box-sizing: border-box;
+   box-shadow: 1px 2px 4px black;
+   background-color: #2a3d45;
+}
+img{
+   width: 100%;
+}
+.card-body{
+   color: blanchedalmond;
+   padding: 3px 5px;
+}
+.card-body .card-title{
+   text-align: center;
+   font-size: 22px;
+   font-weight: bolder;
+}
+p{
+   text-align: justify;
+   line-height: 25px;
+}
+.card:hover{
+   box-shadow: 10px 15px 10px white;
+}
